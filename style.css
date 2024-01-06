@@ -72,8 +72,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
-.lbl-new-task {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -157,15 +156,15 @@ li > input[type="text"] {
 }
 
 /* Edit Task */
-.item_text {
+ul li input[type=text] {
   display: none;
 }
 
-.todo__item_input {
+ul li.editMode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.todo__item_label {
+ul li.editMode label {
   display: none;
 }
